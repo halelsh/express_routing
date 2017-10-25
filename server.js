@@ -10,3 +10,7 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res) {
   res.send('hello world')
 })
+
+app.get('/users/:userId/books/:bookId', function (req, res) {
+  res.send(req.params)
+})
