@@ -1,6 +1,7 @@
 Class Helper{
   constructor(){
-      console.log("on constructor")
+      console.log("on constructor");
+    
     }
   
 }
