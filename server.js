@@ -9,3 +9,8 @@ app.get('/', function (req, res) {
 app.get('/:id', function (req, res) {
   res.send('hello world'+req.params.id);
 })
+
+
+app.post("/", function (req, res) {
+  res.send('hello post');
+})
